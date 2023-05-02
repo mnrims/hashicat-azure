@@ -1,6 +1,6 @@
 
 module "network" {
-  source              = "Azure/network/azurerm"
+  source  = "app.terraform.io/mn/network/azurerm"
   version = "3.5.0"
   resource_group_name = "myresources"
   address_space       = "10.0.0.0/16"
